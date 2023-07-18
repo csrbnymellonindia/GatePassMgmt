@@ -1,0 +1,49 @@
+.refresh-button {
+  border-radius: 2rem;
+  border: none;
+  padding: .5rem 1rem .5rem 1rem;
+  margin-left: .4rem;
+  color: black;
+}
+
+.action-button {
+  border-radius: 2rem;
+}
+
+table {
+  width: 90vw;
+}
+
+table td{
+  vertical-align: middle;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.pending-request-toolbar {
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.search-input {
+  padding: .3rem;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+@media screen and (max-width: 500px) {
+  .refresh-button {
+    flex-direction: column;
+  }
+}
